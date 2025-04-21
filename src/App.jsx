@@ -13,7 +13,12 @@ function App() {
         <Display />
       </div>
       <Player />
-      <audio ref={audioRef} src={track.file} preload='auto'></audio>
+      <audio
+        data-track-id={track.id}
+        ref={audioRef}
+        src={track.file}
+        preload="auto"
+      ></audio>
     </div>
   );
 }

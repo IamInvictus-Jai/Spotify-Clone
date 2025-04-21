@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { assets, songsData } from '../assets/assets'
+import { assets } from '../assets/assets'
 import { PlayerContext } from '../context/PlayerContext'
 
 function Player() {
@@ -14,17 +14,20 @@ function Player() {
     handlePause,
     playPreviousSong,
     playNextSong,
-    seekSong
+    seekSong,
+    playNextBtn,
+    loopSong,
+    isLoopActive
   } = useContext(PlayerContext);
 
 
   return (
     <div className="h-[10%] bg-black flex justify-between items-center text-white px-4">
-      <div className="hidden lg:flex items-center gap-4">
-        <img className="w-12" src={track.image} alt="" />
+      <div className="flex items-center gap-4">
+        <img className="w-8 rounded-full mt-4 md:mt-0 lg:w-12" src={track.image} alt="" />
         <div>
-          <p>{track.name}</p>
-          <p>{track.desc.slice(0, 12)}</p>
+          <p className="hidden md:block">{track.name}</p>
+          <p className="hidden md:block">{track.desc.slice(0, 12)}</p>
         </div>
       </div>
 
@@ -35,7 +38,12 @@ function Player() {
             src={assets.shuffle_icon}
             alt=""
           />
-          <img onClick={playPreviousSong} className="w-4 cursor-pointer" src={assets.prev_icon} alt="" />
+          <img
+            onClick={playPreviousSong}
+            className="w-4 cursor-pointer"
+            src={assets.prev_icon}
+            alt=""
+          />
           {!playStatus && (
             <img
               onClick={handlePlay}
@@ -52,8 +60,33 @@ function Player() {
               alt=""
             />
           )}
-          <img onClick={playNextSong} className="w-4 cursor-pointer" src={assets.next_icon} alt="" />
-          <img className="w-4 cursor-pointer" src={assets.loop_icon} alt="" />
+          <img
+            onClick={playNextSong}
+            ref={playNextBtn}
+            className="w-4 cursor-pointer"
+            src={assets.next_icon}
+            alt=""
+          />
+          {!isLoopActive && (
+            <img
+              onClick={() => {
+                loopSong();
+              }}
+              className="w-5 cursor-pointer"
+              src={assets.repeat_icon}
+              alt=""
+            />
+          )}
+          {isLoopActive && (
+            <img
+              onClick={() => {
+                loopSong();
+              }}
+              className="w-5 cursor-pointer"
+              src={assets.repeat_on_icon}
+              alt=""
+            />
+          )}
         </div>
         <div className="flex items-center gap-5">
           <p>
@@ -61,7 +94,9 @@ function Player() {
             {time.currentTime.second}
           </p>
           <div
-            onClick={(e) => {seekSong(e)}}
+            onClick={(e) => {
+              seekSong(e);
+            }}
             ref={seekBg}
             className="w-[60dvw] max-w-[500px] bg-gray-300 rounded-full cursor-pointer"
           >
