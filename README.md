@@ -96,15 +96,15 @@ Visit the live application: [spotify-clone.vercel.app](spotify-clone-one-swart-8
 <div style="display: flex; gap: 10px; flex-wrap: wrap; justify-content: center;">
   <img src="./screenshots/home.png" alt="Home Screen" />
   <img src="./screenshots/album.png" alt="Album View" />
-  <img src="./screenshots/android view.jpeg" alt="Android View" />
+  <img style="width: 25%; aspect-ratio: 1/2" src="./screenshots/android view.jpeg" alt="Android View" />
 </div>
 
 ## 📞 Contact Information
 
 - **Developer**: Pulasari Jai
 - **Email**: prof.techinvictus@gmail.com
-- **GitHub**: [github.com/yourusername](https://github.com/IamInvictus-Jai)
-- **LinkedIn**: [linkedin.com/in/yourusername](https://linkedin.com/in/Pulasari%Jai%_)
+- **GitHub**: [github.com/IamInvictus-Jai]
+- **LinkedIn**: [https://www.linkedin.com/in/pulasari-jai-11b34b346]
 
 ## 📄 License
 
