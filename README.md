@@ -2,7 +2,7 @@
 
 A sleek and responsive web application that recreates the core functionality and aesthetic of Spotify's music streaming service.
 
-![Spotify Clone Screenshot](/api/placeholder/800/400)
+![Spotify Clone Screenshot](./screenshots/home.png)
 
 ## 📖 Description
 
@@ -59,8 +59,8 @@ spotify-clone/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/spotify-clone.git
-   cd spotify-clone
+   git clone https://github.com/IamInvictus-Jai/Spotify-Clone.git
+   cd Spotify-Clone
    ```
 
 2. **Install dependencies**
@@ -89,22 +89,22 @@ spotify-clone/
 This application is deployed on [Vercel](https://vercel.com), a platform optimized for frontend frameworks like React.
 
 ### Deployment Link
-Visit the live application: [spotify-clone.vercel.app](https://spotify-clone.vercel.app)
+Visit the live application: [spotify-clone.vercel.app](spotify-clone-one-swart-87.vercel.app)
 
 ## 📱 Screenshots
 
 <div style="display: flex; gap: 10px; flex-wrap: wrap; justify-content: center;">
-  <img src="/api/placeholder/350/200" alt="Home Screen" />
-  <img src="/api/placeholder/350/200" alt="Album View" />
-  <img src="/api/placeholder/350/200" alt="Player Controls" />
+  <img src="./screenshots/home.png" alt="Home Screen" />
+  <img src="./screenshots/album.png" alt="Album View" />
+  <img src="./screenshots/android view.jpeg" alt="Android View" />
 </div>
 
 ## 📞 Contact Information
 
-- **Developer**: Your Name
-- **Email**: your.email@example.com
-- **GitHub**: [github.com/yourusername](https://github.com/yourusername)
-- **LinkedIn**: [linkedin.com/in/yourusername](https://linkedin.com/in/yourusername)
+- **Developer**: Pulasari Jai
+- **Email**: prof.techinvictus@gmail.com
+- **GitHub**: [github.com/yourusername](https://github.com/IamInvictus-Jai)
+- **LinkedIn**: [linkedin.com/in/yourusername](https://linkedin.com/in/Pulasari%Jai%_)
 
 ## 📄 License
 
