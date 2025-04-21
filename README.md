@@ -89,7 +89,7 @@ spotify-clone/
 This application is deployed on [Vercel](https://vercel.com), a platform optimized for frontend frameworks like React.
 
 ### Deployment Link
-Visit the live application: [spotify-clone.vercel.app](spotify-clone-one-swart-87.vercel.app)
+Visit the live application: [spotify-clone.vercel.app](https://spotify-clone-one-swart-87.vercel.app/)
 
 ## 📱 Screenshots
 
@@ -103,8 +103,8 @@ Visit the live application: [spotify-clone.vercel.app](spotify-clone-one-swart-8
 
 - **Developer**: Pulasari Jai
 - **Email**: prof.techinvictus@gmail.com
-- **GitHub**: [github.com/IamInvictus-Jai]
-- **LinkedIn**: [https://www.linkedin.com/in/pulasari-jai-11b34b346]
+- **GitHub**: [github.com/IamInvictus-Jai](https://github.com/IamInvictus-Jai/Spotify-Clone)
+- **LinkedIn**: [https://www.linkedin.com/in/pulasari-jai](https://www.linkedin.com/in/pulasari-jai-11b34b346)
 
 ## 📄 License
 
